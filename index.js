@@ -31,3 +31,7 @@ console.log("\nTEST 2 - good object coding")
     console.log("Should return 0")
     const O1= TestObject();
     console.log(O1.getX())
+
+    console.log("\nTEST 3")
+    var mymodule=require("./lib/module.js")
+    console.log(mymodule(2,3))
